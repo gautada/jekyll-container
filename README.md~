@@ -1,0 +1,70 @@
+# jekyll-container
+
+https://jekyllrb.com
+
+# {Title - Name of the container}
+
+A container for a jekyll static website generator
+{Abstract
+
+[Upstream Name](URL to upstream project) ... Lift the purpose of the project from the upstream website.
+
+Add a second paragraph about the container and what the job it is hired to do.
+}
+
+## Features
+
+- {List specific features that are considered important}
+
+### Feature Detail
+
+{ Provide specific details regarding the feature }
+
+## Development
+
+## Testing
+
+## Deploy
+
+## Architecture
+
+### Context
+
+{![Context Diagram(Link to image)}
+
+### Container
+
+{![Container Diagram(Link to image)}
+
+### Components
+
+{![Component Diagram(Link to image)}
+
+## Administration
+
+### Checklist
+
+- [ ] README conforms to the [gist](https://gist.github.com/gautada/ec549c846e8e50daf355d01b06eb0665)
+- [ ] .gitignore conforms to the [gist](https://gist.github.com/gautada/3a0a4a76d3c7e4539e71fc02c7f599ad)
+- [ ] Confirm the drone.yml file
+- [ ] Volume folders are present (development-volume & backup-volume)
+- [ ] docker-compose(.yml) works
+- [ ] Manifst folder present (and origin to private repository is correct
+- [ ] Issue List is linked to proper URI
+- [ ] Signoff ({date and signature of last check})
+- [ ] Confirm backup (maybe add to testing layer)
+- [ ] Confirm healthcheck (maybe add to testing layer)
+- [ ] Regenerate all architecture images
+- [ ] Decouple alpine upstream image in `Containerfile`, `docker-compose.yml`, and `drone.yml`
+
+
+### Issues
+
+The official to list is kept in a [GitHub Issue List]{(https://github.com/gautada/{repo}/issues)}
+
+## Notes
+
+
+
+
+
